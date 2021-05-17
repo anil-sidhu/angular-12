@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  data="hello code "
+  num=100
 }
