@@ -6,11 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Get Input Box Value';
-  displayVal='';
-  getValue(val:string)
+  title = 'Counter With Angular';
+  count=0;
+  counter(type:string)
   {
-    console.warn(val)
-    this.displayVal=val
+    type==='add'?this.count++:this.count--
   }
 }
