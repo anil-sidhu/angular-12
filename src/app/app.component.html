@@ -1,12 +1,2 @@
-<h1>{{ title }}</h1>
-
-<ul *ngFor="let user of users">
-<li>{{user.name}}</li>
-<li>{{user.email}}</li>
-<li>{{user.phone}}</li>
-
-<ul *ngFor="let account of user.accounts">
-<li>{{account}}</li>
-</ul>
-
-</ul>
+<h1 [style.color]="color" [style.backgroundColor]="bgColor"> {{ title }}</h1>
+<button  (click)="updateColor()">Update Color</button>
