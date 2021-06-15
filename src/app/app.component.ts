@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Toggle Element';
+  title = 'Bootstrap with angular';
   display=true;
   toggle()
   {
