@@ -5,10 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Bootstrap with angular';
-  display=true;
-  toggle()
-  {
-this.display=!this.display;
-  }
+  title = 'Material UI with angular';
 }
