@@ -1,10 +1,11 @@
 <h1>{{ title }}</h1>
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
-<div class="example-button-row">
-    <button mat-raised-button>Basic</button>
-    <button mat-raised-button color="primary">Primary</button>
-    <button mat-raised-button color="accent">Accent</button>
-    <button mat-raised-button color="warn">Warn</button>
-    <button mat-raised-button disabled>Disabled</button>
-    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
-  </div>
+<input type="text" placeholder="Enter New Task" #task />
+<br>
+<br>
+<button (click)="addTask(task.value)">Add New Task</button>
+<br>
+<br>
+
+<ul *ngFor="let item of list">
+<li>{{item.name}} <button (click)="removeTask(item.id)">Remove</button></li>
+</ul>
