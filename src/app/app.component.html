@@ -1,4 +1,6 @@
 <h1>{{ title }}</h1>
-<ul *ngFor="let item of data">
-    <app-child [item]="item" ></app-child>
+
+
+<ul *ngFor="let user of userDetails">
+    <app-user-details [item]='user' ></app-user-details>
 </ul>

@@ -5,15 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Send Data Child to Parent Component';
-  data = [
-    {
-      name: 'Anil Sidhu',
-      email: 'anil@test.com',
-    },
-    {
-      name: 'Sam',
-      email: 'sam@test.com',
-    },
-  ];
+  title = 'Reusable Component';
+  userDetails=[
+    {name:'Anil',email:'anil@test.com'},
+    {name:'Sam',email:'sam@test.com'},
+    {name:'Peter',email:'peter@test.com'},
+    {name:'Bruce',email:'bruce@test.com'},
+    {name:'Tony',email:'tony@test.com'},
+
+  ]
 }
