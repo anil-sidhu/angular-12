@@ -6,4 +6,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Send Data Child to Parent Component';
+  data = [
+    {
+      name: 'Anil Sidhu',
+      email: 'anil@test.com',
+    },
+    {
+      name: 'Sam',
+      email: 'sam@test.com',
+    },
+  ];
 }
