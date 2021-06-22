@@ -5,11 +5,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Send data child to parent Component';
-  data="x";
-  updateData(item:string)
-  {
-    console.warn(item)
-    this.data=item;
-  }
+  title = 'Two Way Binding';
+  data:any;
 }
