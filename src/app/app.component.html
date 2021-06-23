@@ -1,4 +1,4 @@
 <h1>{{ title }}</h1>
-<input type="text" [(ngModel)]="data">
 
-<h3>{{data}}</h3>
+<input type="text" #box placeholder="enter name">
+<button (click)="getVal(box)">Click Me</button>

@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Two Way Binding';
-  data:any;
+  title = 'Template Reference Variable';
+  getVal(item:HTMLInputElement)
+  {
+    console.warn(item);
+    
+  }
 }
