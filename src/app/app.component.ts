@@ -5,10 +5,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Template Reference Variable';
-  getVal(item:HTMLInputElement)
-  {
-    console.warn(item);
-    
-  }
+  title = 'Angular Pipes';
+  user = {
+    name: 'anil sidhu',
+    age: 30,
+  };
 }
