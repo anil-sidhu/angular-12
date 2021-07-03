@@ -5,9 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Angular Pipes';
-  user = {
-    name: 'anil sidhu',
-    age: 30,
-  };
+  title = 'Angular Custom Pipes';
 }

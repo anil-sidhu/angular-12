@@ -1,10 +1,11 @@
-import { NgModule} from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import {FormsModule} from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { UsdInrPipe } from './pipes/usd-inr.pipe';
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule,FormsModule],
+  declarations: [AppComponent, UsdInrPipe],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
