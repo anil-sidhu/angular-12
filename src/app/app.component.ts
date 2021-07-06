@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Angular Custom Pipes';
+  title = 'Angular Template Driven Form';
 }
