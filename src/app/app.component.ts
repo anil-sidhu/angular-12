@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Template Driven Form';
+  loginUser(item:any)
+  {
+    console.warn(item);
+  }
 }
